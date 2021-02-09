@@ -492,37 +492,6 @@
 // require( 'datatables.net-buttons/js/buttons.print.js' )();  // Print view button
 export default {
         name: "index",
-        metaInfo () {
-            return {
-                script: [
-                    { src: "../assets/js/jquery,js" },
-                    { src: "../assets/js/bootstrap.min.js" },
-                    { src: "../assets/js/dataTables.js" },
-                    { src: "../assets/js/jquery.dataTables.min.js" },
-                    { src: "../assets/js/dataTables.buttons.min.js" },
-                    { src: "../assets/js/buttons.flash.min.js" },
-                    { src: "../assets/js/jszip.min.js" },
-                    { src: "../assets/js/pdfmake.min.js" },
-                    { src: "../assets/js/vfs_fonts.js" },
-                    { src: "../assets/js//buttons.html5.min.js" },
-                    { src: "../assets/js/buttons.print.min.js" },
-                    { src: "../assets/js/buttons.colVis.min.js" }
-                ],
-                link: [
-                    /*
-        <link rel="stylesheet" href="css/datatablefinal.css" />
-        <link rel="stylesheet" href="css/buttons.dataTables.min.css">
-        <link rel="stylesheet" href="css/select.dataTables.min.css">
-        <link rel="stylesheet" href="css/editor.dataTables.min.css">
-
-                    */
-                    { rel: "stylesheet", href: "../assets/css/datatablefinal.css"},
-                    { rel: "stylesheet", href: "../assets/css/buttons.dataTables.min.css"},
-                    { rel: "stylesheet", href: "../assets/css/select.dataTables.min.css"},
-                    { rel: "stylesheet", href: "../assets/css/editor.dataTables.min.css"}
-                ]
-            }
-        },
 
 data() {
           return {
